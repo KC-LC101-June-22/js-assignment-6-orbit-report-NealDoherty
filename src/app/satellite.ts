@@ -18,9 +18,7 @@ export class Satellite {
 		if(possibleDebris.type === "Space Debris"){
 		return true;
 		}
-		else{
-			return false;
-		}
+		return false;
    }
 
 }
